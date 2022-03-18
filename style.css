@@ -206,8 +206,58 @@ padding-top: 14%;
     color:#fff;
 }
 
+/*Review*/
 
+.user-review{
+    padding: 100px;
+    text-align: center;
+}
 
+.reviewbox{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+    height: auto;
+}
+.reviewbox p{
+    padding: 50px 10px 10px 10px;
+}
+.reviewbox p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+.user-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-top:-29px;
+}
+
+/* Footer */
+
+.footer{
+    background-image: linear-gradient(#2d557d,#9610fb);
+    padding: 100px;
+    color: #fff;
+}
+.footer-box p{
+    font-size: 14px;
+    padding-right: 35px;
+    text-align:justify;
+}
+
+.footer-logo{
+    width: 150px;
+    padding-bottom: 20px;
+}
 
 
 
